@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0787b3f047ed8714e9a5d369316d43ea" extends="task" label="Network Request" max_length="40" name="x_1877518_automa_0_network_request" type="collection">
+        <element label="Request Type" max_length="32" name="request_type" reference="x_1877518_automa_0_request_type" type="reference"/>
+        <element choice="1" label="Access Level" max_length="40" name="access_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Write" sequence="1" value="write"/>
+                <element inactive_on_update="false" label="Read" sequence="0" value="read"/>
+                <element inactive_on_update="false" label="Admin" sequence="2" value="admin"/>
+            </choice>
+        </element>
+        <element label="Device Name" max_length="40" name="device_name" type="string"/>
+        <element choice="3" label="Device Type" max_length="40" name="device_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Desktop" sequence="1" value="desktop"/>
+                <element inactive_on_update="false" label="Mobile" sequence="2" value="mobile"/>
+                <element inactive_on_update="false" label="Server" sequence="3" value="server"/>
+            </choice>
+        </element>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="IP Address" max_length="40" name="ip_address" type="ip_addr"/>
+        <element label="Business Justification" max_length="40" name="business_justification" type="string"/>
+        <element choice="3" label="Approval Status" max_length="255" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Waiting" sequence="0" value="waiting"/>
+            </choice>
+        </element>
+    </element>
+</database>

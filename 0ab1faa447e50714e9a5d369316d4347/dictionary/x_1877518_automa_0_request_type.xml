@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="b6fb7b3c47ed8714e9a5d369316d436c" label="Request Type" max_length="40" name="x_1877518_automa_0_request_type" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Request Type" max_length="40" name="request_type" type="string"/>
+    </element>
+</database>

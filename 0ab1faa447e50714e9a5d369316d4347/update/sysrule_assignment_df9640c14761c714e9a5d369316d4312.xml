@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysrule_assignment">
+    <sysrule_assignment action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1877518_automa_0_network_request">request_type=e7fb7b3c47ed8714e9a5d369316d43a2^ORrequest_type=63fb7b3c47ed8714e9a5d369316d43a3^EQ<item display_table="x_1877518_automa_0_request_type" display_value="Firewall Change" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="false" value="e7fb7b3c47ed8714e9a5d369316d43a2"/>
+            <item display_table="x_1877518_automa_0_request_type" display_value="Internet Access" endquery="false" field="request_type" goto="false" newquery="false" operator="=" or="true" value="63fb7b3c47ed8714e9a5d369316d43a3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <group display_value="Network Security Team" name="Network Security Team">0994404d4721c714e9a5d369316d4314</group>
+        <match_conditions>ALL</match_conditions>
+        <name>Network Security Team</name>
+        <order>100</order>
+        <script>/**&#13;
+* Example:&#13;
+* The following script requires personalizing the instance to add the Malware category and the Security assignment group.&#13;
+* if (current.category == "Hardware")&#13;
+*    current.assignment_group.setDisplayValue("Hardware"); &#13;
+* else if (current.category == "Software")&#13;
+*    current.assignment_group.setDisplayValue("Software");&#13;
+* else if (current.category == "Malware")&#13;
+*    current.assignment_group.setDisplayValue("Security");	&#13;
+*&#13;
+* Another Example:&#13;
+* Release Planning Example, which assigns the last person assigned to a release to the current release.&#13;
+* current.release.product.service.assigned_to;&#13;
+*/</script>
+        <sys_class_name>sysrule_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 05:50:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>df9640c14761c714e9a5d369316d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Network Security Team</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sysrule_assignment_df9640c14761c714e9a5d369316d4312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 05:50:50</sys_updated_on>
+        <table>x_1877518_automa_0_network_request</table>
+        <user/>
+    </sysrule_assignment>
+</record_update>
