@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>9d94b41947a54b14e9a5d369316d4379</sys_id>
+            <sys_created_on>2026-06-17 06:27:13</sys_created_on>
+            <sys_id>2ce85dd147e94b14e9a5d369316d4390</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>requested_by</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>1d94b41947a54b14e9a5d369316d437a</sys_id>
+            <sys_created_on>2026-06-17 06:27:13</sys_created_on>
+            <sys_id>e0e85dd147e94b14e9a5d369316d4392</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,153 +32,97 @@
             <element>email</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>9994b41947a54b14e9a5d369316d437b</sys_id>
+            <sys_created_on>2026-06-17 06:27:13</sys_created_on>
+            <sys_id>60e85dd147e94b14e9a5d369316d4393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ip_address</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>1994b41947a54b14e9a5d369316d437c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>access_level</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>9594b41947a54b14e9a5d369316d437d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>1594b41947a54b14e9a5d369316d437e</sys_id>
+            <sys_created_on>2026-06-17 06:27:13</sys_created_on>
+            <sys_id>ece85dd147e94b14e9a5d369316d4393</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>request_type</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>9194b41947a54b14e9a5d369316d437f</sys_id>
+            <sys_created_on>2026-06-17 06:27:13</sys_created_on>
+            <sys_id>6ce85dd147e94b14e9a5d369316d4394</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>device_type</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>1194b41947a54b14e9a5d369316d4380</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>department</element>
-            <position>8</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>9d94b41947a54b14e9a5d369316d4380</sys_id>
+            <sys_created_on>2026-06-17 06:27:14</sys_created_on>
+            <sys_id>e8e85dd147e94b14e9a5d369316d4395</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>priority</element>
-            <position>9</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>1d94b41947a54b14e9a5d369316d4381</sys_id>
+            <sys_created_on>2026-06-17 06:27:14</sys_created_on>
+            <sys_id>68e85dd147e94b14e9a5d369316d4396</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>device_name</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>9994b41947a54b14e9a5d369316d4382</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>1994b41947a54b14e9a5d369316d4383</sys_id>
+            <sys_created_on>2026-06-17 06:27:14</sys_created_on>
+            <sys_id>e4e85dd147e94b14e9a5d369316d4397</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:14</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>business_justification</element>
-            <position>12</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 03:48:37</sys_created_on>
-            <sys_id>9594b41947a54b14e9a5d369316d4384</sys_id>
+            <sys_created_on>2026-06-17 06:27:14</sys_created_on>
+            <sys_id>74e85dd147e94b14e9a5d369316d4398</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">3b87f3f047ed8714e9a5d369316d43f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 03:48:37</sys_updated_on>
+            <sys_updated_on>2026-06-17 06:27:14</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

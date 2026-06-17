@@ -28,7 +28,7 @@
         <element label="Building" max_length="40" name="building" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="ip_addr"/>
         <element label="Business Justification" max_length="40" name="business_justification" type="string"/>
-        <element choice="3" label="Approval Status" max_length="255" name="approval_status" type="choice">
+        <element choice="3" default="waiting" label="Approval Status" max_length="255" name="approval_status" read_only="true" read_only_option="display_read_only" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
                 <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
