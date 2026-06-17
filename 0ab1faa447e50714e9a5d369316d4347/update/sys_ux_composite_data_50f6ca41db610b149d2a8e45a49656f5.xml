@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data">
+    <sys_ux_composite_data action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_filter_label/>
+        <name>Custom Portal Catalog Item page - Related Items dataset</name>
+        <query_parameters/>
+        <required_roles/>
+        <sort_order/>
+        <sys_class_name>sys_ux_composite_data</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:10:02</sys_created_on>
+        <sys_id>50f6ca41db610b149d2a8e45a49656f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal Catalog Item page - Related Items dataset</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_ux_composite_data_50f6ca41db610b149d2a8e45a49656f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:10:02</sys_updated_on>
+    </sys_ux_composite_data>
+</record_update>

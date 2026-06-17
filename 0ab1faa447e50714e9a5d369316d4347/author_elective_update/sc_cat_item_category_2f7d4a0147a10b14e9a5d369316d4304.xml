@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Automated Network Request Management">195706c147610b14e9a5d369316d43a9</sc_cat_item>
+        <sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:38:36</sys_created_on>
+        <sys_id>2f7d4a0147a10b14e9a5d369316d4304</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Automated Network Request Management</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sc_cat_item_category_2f7d4a0147a10b14e9a5d369316d4304</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:38:36</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</application>
+        <file_path/>
+        <instance_id>cf0b4ac5eba44b943a48f459bad0cd3e</instance_id>
+        <instance_name>dev393147</instance_name>
+        <name>sc_cat_item_category_2f7d4a0147a10b14e9a5d369316d4304</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Automated Network Request Management">195706c147610b14e9a5d369316d43a9</sc_cat_item><sc_category display_value="Services">109f0438c6112276003ae8ac13e7009d</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-16 15:38:36</sys_created_on><sys_id>2f7d4a0147a10b14e9a5d369316d4304</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Services.Automated Network Request Management</sys_name><sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope><sys_update_name>sc_cat_item_category_2f7d4a0147a10b14e9a5d369316d4304</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-16 15:38:36</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1677230635</payload_hash>
+        <record_name>Services.Automated Network Request Management</record_name>
+        <reverted_from/>
+        <source>0f06373047ed8714e9a5d369316d4386</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:38:36</sys_created_on>
+        <sys_id>6b7d4a0147a10b14e9a5d369316d430c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ed115a1ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:38:36</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>277d4a0126a10b14577be15b5340a60b</update_guid>
+        <update_guid_history>277d4a0126a10b14577be15b5340a60b:1677230635</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Services.Automated Network Request Management">ea60168547a10b14e9a5d369316d43a4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:51:21</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>66bf4cee1ccf42b8b444c1063dd7f501</sys_id>
+        <sys_metadata>2f7d4a0147a10b14e9a5d369316d4304</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Services.Automated Network Request Management</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_scope_delete display_value="">2699a29f2aba41708758c9ea9c02e789</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_2f7d4a0147a10b14e9a5d369316d4304</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_2f7d4a0147a10b14e9a5d369316d4304">6b7d4a0147a10b14e9a5d369316d430c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:51:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

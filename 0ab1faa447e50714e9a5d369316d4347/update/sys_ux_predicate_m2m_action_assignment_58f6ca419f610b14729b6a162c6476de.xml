@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">d4f60e417e610b1451134ecd62d2191d</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">54f6ca41e7610b14ff93d1e988467fea</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:10:03</sys_created_on>
+        <sys_id>58f6ca419f610b14729b6a162c6476de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_58f6ca419f610b14729b6a162c6476de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:10:03</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>

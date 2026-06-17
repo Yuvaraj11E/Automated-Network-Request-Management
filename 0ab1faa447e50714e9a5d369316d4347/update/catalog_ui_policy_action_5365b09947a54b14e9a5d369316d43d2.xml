@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:7fdb8ac947610b14e9a5d369316d438c</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 03:52:18</sys_created_on>
+        <sys_id>5365b09947a54b14e9a5d369316d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>device_type</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_5365b09947a54b14e9a5d369316d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 03:52:18</sys_updated_on>
+        <table/>
+        <ui_policy display_value="WiFi Access UI Policy">9ff4f05947a54b14e9a5d369316d43c3</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>device_type</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=5365b09947a54b14e9a5d369316d43d2"/>
+</record_update>

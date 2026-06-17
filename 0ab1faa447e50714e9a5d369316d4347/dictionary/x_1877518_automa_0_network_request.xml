@@ -17,8 +17,15 @@
                 <element inactive_on_update="false" label="Server" sequence="3" value="server"/>
             </choice>
         </element>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Floor" max_length="40" name="floor" type="string"/>
+        <element label="Website URL" max_length="1024" name="website_url" type="url"/>
+        <element label="Port Number" max_length="40" name="port_number" type="integer"/>
+        <element label="Desk Number" max_length="40" name="desk_number" type="string"/>
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Building" max_length="40" name="building" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="ip_addr"/>
         <element label="Business Justification" max_length="40" name="business_justification" type="string"/>
         <element choice="3" label="Approval Status" max_length="255" name="approval_status" type="choice">
@@ -28,5 +35,6 @@
                 <element inactive_on_update="false" label="Waiting" sequence="0" value="waiting"/>
             </choice>
         </element>
+        <element label="Email" max_length="40" name="email" type="string"/>
     </element>
 </database>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Automated Network Request Management App Config">14f6ca4104610b14d77c5752ac7416bd</app_config>
+        <description/>
+        <extension_point/>
+        <fields>sysId,table,approvalId</fields>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Record Page(task)</name>
+        <optional_parameters>newId</optional_parameters>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell (Deprecated)">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>rec_task</route_type>
+        <screen_type display_value="Record Page(task)">54f60e4166610b145d9e407a78cc9910</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:10:05</sys_created_on>
+        <sys_id>5cf60e417d610b1449aaad0cd6f17b10</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Page(task)</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_ux_app_route_5cf60e417d610b1449aaad0cd6f17b10</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:10:05</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=5cf60e417d610b1449aaad0cd6f17b10"/>
+</record_update>

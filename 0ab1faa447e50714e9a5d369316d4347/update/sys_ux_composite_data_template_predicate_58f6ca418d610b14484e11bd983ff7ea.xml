@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template_predicate">
+    <sys_ux_composite_data_template_predicate action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="sc_request">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <custom_condition/>
+        <custom_field_list/>
+        <field_list>number,request_state,due_date,description,opened_at,state,priority,price</field_list>
+        <name>Custom Portal Landing - My Requests Predicate</name>
+        <order/>
+        <predicate_bundle/>
+        <required_roles/>
+        <sys_class_name>sys_ux_composite_data_template_predicate</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:10:01</sys_created_on>
+        <sys_id>58f6ca418d610b14484e11bd983ff7ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom Portal Landing - My Requests Predicate</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_ux_composite_data_template_predicate_58f6ca418d610b14484e11bd983ff7ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:10:01</sys_updated_on>
+        <table>sc_request</table>
+        <ux_template display_value="Custom Portal Landing - My Requests template">5cf6ca4142610b1448c22b9e40da14ed</ux_template>
+    </sys_ux_composite_data_template_predicate>
+</record_update>

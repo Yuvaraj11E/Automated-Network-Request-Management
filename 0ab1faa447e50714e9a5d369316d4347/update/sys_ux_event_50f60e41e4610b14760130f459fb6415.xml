@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>MY_REQUEST</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>My request</label>
+        <props>[&#13;
+   {&#13;
+      "name":"sysId",&#13;
+      "fieldType":"string",&#13;
+      "label":"Sys ID",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   },&#13;
+    {&#13;
+      "name":"table",&#13;
+      "fieldType":"string",&#13;
+      "label":"Table",&#13;
+      "interfaceApiName":null,&#13;
+      "typeMetadata":null,&#13;
+      "mandatory":false,&#13;
+      "readOnly":false&#13;
+   }&#13;
+]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:09:59</sys_created_on>
+        <sys_id>50f60e41e4610b14760130f459fb6415</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My request</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_ux_event_50f60e41e4610b14760130f459fb6415</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:09:59</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=50f60e41e4610b14760130f459fb6415"/>
+</record_update>

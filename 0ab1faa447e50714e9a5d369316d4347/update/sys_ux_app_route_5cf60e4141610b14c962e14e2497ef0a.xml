@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Automated Network Request Management App Config">14f6ca4104610b14d77c5752ac7416bd</app_config>
+        <description/>
+        <extension_point/>
+        <fields/>
+        <icon/>
+        <interoperable>false</interoperable>
+        <name>Security and login</name>
+        <optional_parameters/>
+        <order>100</order>
+        <parent_macroponent display_value="Settings Page">5cf60e4155610b14137ab64d94c38a0f</parent_macroponent>
+        <parent_macroponent_composition_element_id>tab_set_1</parent_macroponent_composition_element_id>
+        <route_type>cketv4vef00013g8ybmju8dpb</route_type>
+        <screen_type display_value="Security and login">50f60e4154610b1481114584647b0e0e</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:10:02</sys_created_on>
+        <sys_id>5cf60e4141610b14c962e14e2497ef0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Security and login</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_ux_app_route_5cf60e4141610b14c962e14e2497ef0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:10:02</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=5cf60e4141610b14c962e14e2497ef0a"/>
+</record_update>

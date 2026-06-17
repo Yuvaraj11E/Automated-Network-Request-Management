@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item/>
+        <catalog_variable>IO:4c76b2c147e50b14e9a5d369316d43f7</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <order>200</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-17 04:04:37</sys_created_on>
+        <sys_id>eb38f81147e54b14e9a5d369316d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>floor</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_eb38f81147e54b14e9a5d369316d43e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-17 04:04:37</sys_updated_on>
+        <table/>
+        <ui_policy display_value="LAN Port Activation UI Policy">5ac7b8dd47a54b14e9a5d369316d43b7</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>floor</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb38f81147e54b14e9a5d369316d43e6"/>
+</record_update>

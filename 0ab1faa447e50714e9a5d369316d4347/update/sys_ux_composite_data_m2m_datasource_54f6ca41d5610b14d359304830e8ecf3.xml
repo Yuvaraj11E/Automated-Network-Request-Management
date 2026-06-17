@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Landing - My Tasks Dataset">5cf6ca417e610b14c04f4ee6cb9c17f5</dataset>
+        <datasource display_value="Custom Portal Landing - My Tasks Datasource (Task table)">50f6ca4134610b1437ff1e321a239cf4</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:10:04</sys_created_on>
+        <sys_id>54f6ca41d5610b14d359304830e8ecf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_54f6ca41d5610b14d359304830e8ecf3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:10:04</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

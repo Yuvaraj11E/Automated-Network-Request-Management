@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="d8f60e4140610b1406a175faa28c1d17" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1877518_automa_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 15:09:59</sys_created_on>
+            <sys_id>5cf60e413f610b14fcbc244ba12c6416</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="58f60e411c610b14adf02e49c6ed6d16">d8f60e4140610b1406a175faa28c1d17</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 15:09:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 15:09:59</sys_created_on>
+            <sys_id>14f60e4102610b146af68cd258299f17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="58f60e411c610b14adf02e49c6ed6d16">d8f60e4140610b1406a175faa28c1d17</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 15:09:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-16 15:09:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8f60e4140610b1406a175faa28c1d17</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+            <sys_update_name>sys_ui_section_d8f60e4140610b1406a175faa28c1d17</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-16 15:09:59</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_1877518_automa_0)" name="custom_portal_approval_x_1877518_automa_0">58f60e411c610b14adf02e49c6ed6d16</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</application>
+        <file_path/>
+        <instance_id>cf0b4ac5eba44b943a48f459bad0cd3e</instance_id>
+        <instance_name>dev393147</instance_name>
+        <name>sys_ui_section_d8f60e4140610b1406a175faa28c1d17</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="d8f60e4140610b1406a175faa28c1d17" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1877518_automa_0"><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-16 15:09:59</sys_created_on><sys_id>5cf60e413f610b14fcbc244ba12c6416</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="58f60e411c610b14adf02e49c6ed6d16">d8f60e4140610b1406a175faa28c1d17</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-16 15:09:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>sysapproval</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-16 15:09:59</sys_created_on><sys_id>14f60e4102610b146af68cd258299f17</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="58f60e411c610b14adf02e49c6ed6d16">d8f60e4140610b1406a175faa28c1d17</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-16 15:09:59</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>sysapproval_approver</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-16 15:09:59</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d8f60e4140610b1406a175faa28c1d17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sysapproval_approver</sys_name><sys_overrides/><sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope><sys_update_name>sys_ui_section_d8f60e4140610b1406a175faa28c1d17</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-16 15:09:59</sys_updated_on><sys_user/><title>false</title><view display_value="Custom portal (x_1877518_automa_0)" name="custom_portal_approval_x_1877518_automa_0">58f60e411c610b14adf02e49c6ed6d16</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1918333833</payload_hash>
+        <record_name>Approval</record_name>
+        <reverted_from/>
+        <source>b4e43a3347300310e9a5d369316d43c7</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2026-05-19 00:46:55</sys_created_on>
+        <sys_id>f8080e0547610b14e9a5d369316d4390</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>19e3db334180000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Form Layout</type>
+        <update_guid>b8080e05ae610b14bf6e4332c41d3a90</update_guid>
+        <update_guid_history>b8080e05ae610b14bf6e4332c41d3a90:1918333833</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 15:14:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>18030064bd1243de852b718ec82bb071</sys_id>
+        <sys_metadata>d8f60e4140610b1406a175faa28c1d17</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sysapproval_approver</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_parent display_value="Sysapproval Approver">69c994a0f54403100a22c0b3dfa15158</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_scope_delete display_value="">2699a29f2aba41708758c9ea9c02e789</sys_scope_delete>
+        <sys_update_name>sys_ui_section_d8f60e4140610b1406a175faa28c1d17</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_d8f60e4140610b1406a175faa28c1d17">f8080e0547610b14e9a5d369316d4390</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 15:14:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
