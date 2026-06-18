@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0787b3f047ed8714e9a5d369316d43ea" extends="task" label="Network Request" max_length="40" name="x_1877518_automa_0_network_request" type="collection">
-        <element label="Request Type" max_length="32" name="request_type" reference="x_1877518_automa_0_request_type" type="reference"/>
+        <element display="true" label="Request Type" max_length="32" name="request_type" reference="x_1877518_automa_0_request_type" type="reference"/>
         <element choice="1" label="Access Level" max_length="40" name="access_level" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Write" sequence="1" value="write"/>

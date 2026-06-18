@@ -1,72 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Approval Section" section_id="a900c8454721c714e9a5d369316d434a" sys_domain="global" table="x_1877518_automa_0_network_request" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
+            <element>comments</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 06:43:42</sys_created_on>
-            <sys_id>46acd11d47e94b14e9a5d369316d43c4</sys_id>
+            <sys_created_on>2026-06-18 04:13:24</sys_created_on>
+            <sys_id>4ed38ee147210f14e9a5d369316d4334</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approval Section" display_value="Approval Section" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">a900c8454721c714e9a5d369316d434a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 06:43:42</sys_updated_on>
+            <sys_updated_on>2026-06-18 04:13:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-18 04:13:24</sys_created_on>
+            <sys_id>cad38ee147210f14e9a5d369316d4335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Approval Section" display_value="Approval Section" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">a900c8454721c714e9a5d369316d434a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-18 04:13:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>assignment_group</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 06:43:42</sys_created_on>
-            <sys_id>c2acd11d47e94b14e9a5d369316d43c5</sys_id>
+            <sys_created_on>2026-06-18 04:13:24</sys_created_on>
+            <sys_id>4ad38ee147210f14e9a5d369316d4336</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approval Section" display_value="Approval Section" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">a900c8454721c714e9a5d369316d434a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 06:43:42</sys_updated_on>
+            <sys_updated_on>2026-06-18 04:13:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>state</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 06:43:42</sys_created_on>
-            <sys_id>42acd11d47e94b14e9a5d369316d43c6</sys_id>
+            <sys_created_on>2026-06-18 04:13:24</sys_created_on>
+            <sys_id>c6d38ee147210f14e9a5d369316d4337</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approval Section" display_value="Approval Section" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">a900c8454721c714e9a5d369316d434a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 06:43:42</sys_updated_on>
+            <sys_updated_on>2026-06-18 04:13:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>approval_status</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 06:43:42</sys_created_on>
-            <sys_id>ceacd11d47e94b14e9a5d369316d43c6</sys_id>
+            <sys_created_on>2026-06-18 04:13:24</sys_created_on>
+            <sys_id>46d38ee147210f14e9a5d369316d4338</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approval Section" display_value="Approval Section" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">a900c8454721c714e9a5d369316d434a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 06:43:42</sys_updated_on>
+            <sys_updated_on>2026-06-18 04:13:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sys_created_on</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-17 06:43:42</sys_created_on>
-            <sys_id>4eacd11d47e94b14e9a5d369316d43c7</sys_id>
+            <sys_created_on>2026-06-18 04:13:24</sys_created_on>
+            <sys_id>c2d38ee147210f14e9a5d369316d4339</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Approval Section" display_value="Approval Section" name="x_1877518_automa_0_network_request" sys_domain="global" view="Default view">a900c8454721c714e9a5d369316d434a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-17 06:43:42</sys_updated_on>
+            <sys_updated_on>2026-06-18 04:13:24</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
