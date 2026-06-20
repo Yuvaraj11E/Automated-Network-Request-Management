@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="0787b3f047ed8714e9a5d369316d43ea" extends="task" label="Network Request" max_length="40" name="x_1877518_automa_0_network_request" type="collection">
-        <element display="true" label="Request Type" max_length="32" name="request_type" reference="x_1877518_automa_0_request_type" type="reference"/>
+        <element label="Request Type" max_length="32" name="request_type" reference="x_1877518_automa_0_request_type" type="reference"/>
         <element choice="1" label="Access Level" max_length="40" name="access_level" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Write" sequence="1" value="write"/>
@@ -18,15 +18,30 @@
             </choice>
         </element>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
-        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element display="true" label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element choice="3" default="pending_approval" label="State Of Request" max_length="255" name="state_of_request" read_only="true" read_only_option="display_read_only" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Approval Rejected" sequence="1" value="approval_rejected"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="0" value="pending_approval"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+            </choice>
+        </element>
         <element label="Floor" max_length="40" name="floor" type="string"/>
         <element label="Website URL" max_length="1024" name="website_url" type="url"/>
+        <element label="Comments from Approver" max_length="40" name="comments_from_approver" read_only="true" read_only_option="display_read_only" type="journal_input"/>
+        <element label="Assigned Engineer" max_length="32" name="assigned_engineer" read_only="true" read_only_option="display_read_only" reference="sys_user" type="reference"/>
         <element label="Port Number" max_length="40" name="port_number" type="integer"/>
         <element label="Desk Number" max_length="40" name="desk_number" type="string"/>
         <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
         <element label="Building" max_length="40" name="building" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="ip_addr"/>
+        <element label="Approver" max_length="32" name="approver" read_only="true" read_only_option="display_read_only" reference="sys_user" type="reference"/>
+        <element choice="1" label="naveen" max_length="255" name="naveen" type="choice">
+            <choice/>
+        </element>
         <element label="Business Justification" max_length="40" name="business_justification" type="string"/>
         <element choice="3" default="waiting" label="Approval Status" max_length="255" name="approval_status" read_only="true" read_only_option="display_read_only" type="choice">
             <choice>

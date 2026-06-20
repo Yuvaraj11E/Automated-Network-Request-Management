@@ -19,7 +19,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>department</dynamic_value_dot_walk_path>
+        <dynamic_value_dot_walk_path>department.name</dynamic_value_dot_walk_path>
         <dynamic_value_field display_value="Requested by">8798468547610b14e9a5d369316d438d</dynamic_value_field>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
@@ -84,18 +84,18 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-06-16 15:38:33</sys_created_on>
         <sys_id>9edc82cd47610b14e9a5d369316d43ad</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Department</sys_name>
         <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
         <sys_policy/>
         <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
         <sys_update_name>item_option_new_9edc82cd47610b14e9a5d369316d43ad</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-16 18:12:36</sys_updated_on>
+        <sys_updated_on>2026-06-19 15:45:12</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>6</type>
+        <type>8</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>

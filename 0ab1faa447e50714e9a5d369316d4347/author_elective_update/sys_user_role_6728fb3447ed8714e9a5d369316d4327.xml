@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1877518_automa_0.Network Approver</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Network Approver</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 04:46:14</sys_created_on>
+        <sys_id>6728fb3447ed8714e9a5d369316d4327</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1877518_automa_0.Network Approver</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_user_role_6728fb3447ed8714e9a5d369316d4327</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 04:46:14</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</application>
+        <file_path/>
+        <instance_id>cf0b4ac5eba44b943a48f459bad0cd3e</instance_id>
+        <instance_name>dev393147</instance_name>
+        <name>sys_user_role_6728fb3447ed8714e9a5d369316d4327</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_1877518_automa_0.Network Approver</name><scoped_admin>false</scoped_admin><suffix>Network Approver</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-16 04:46:14</sys_created_on><sys_id>6728fb3447ed8714e9a5d369316d4327</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1877518_automa_0.Network Approver</sys_name><sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package><sys_policy/><sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope><sys_update_name>sys_user_role_6728fb3447ed8714e9a5d369316d4327</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-16 04:46:14</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-105328885</payload_hash>
+        <record_name>x_1877518_automa_0.Network Approver</record_name>
+        <reverted_from/>
+        <source>0f06373047ed8714e9a5d369316d4386</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-16 04:46:14</sys_created_on>
+        <sys_id>2328fb3447ed8714e9a5d369316d4356</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19ecec05f2c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-16 04:46:14</sys_updated_on>
+        <type>Role</type>
+        <update_guid>ef28fb34ceed8714e8faee35ae6db754</update_guid>
+        <update_guid_history>ef28fb34ceed8714e8faee35ae6db754:-105328885</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1877518_automa_0.Network Approver">a1403d46476dcf14e9a5d369316d43e6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-19 16:04:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>4dc8f8fd04284f3c9bf607353fe68da4</sys_id>
+        <sys_metadata>6728fb3447ed8714e9a5d369316d4327</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1877518_automa_0.Network Approver</sys_name>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_scope_delete display_value="">2699a29f2aba41708758c9ea9c02e789</sys_scope_delete>
+        <sys_update_name>sys_user_role_6728fb3447ed8714e9a5d369316d4327</sys_update_name>
+        <sys_update_version display_value="sys_user_role_6728fb3447ed8714e9a5d369316d4327">2328fb3447ed8714e9a5d369316d4356</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-19 16:04:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
