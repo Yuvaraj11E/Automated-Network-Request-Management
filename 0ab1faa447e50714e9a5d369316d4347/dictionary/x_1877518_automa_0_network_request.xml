@@ -9,6 +9,7 @@
             </choice>
         </element>
         <element label="Device Name" max_length="40" name="device_name" type="string"/>
+        <element label="Instructions by Engineer" max_length="255" name="instructions_by_engineer" read_only="true" read_only_option="display_read_only" type="string_full_utf8"/>
         <element choice="3" label="Device Type" max_length="40" name="device_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
