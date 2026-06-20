@@ -20,7 +20,7 @@
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
         <element display="true" label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
         <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
-        <element choice="3" default="pending_approval" label="State Of Request" max_length="255" name="state_of_request" read_only="true" read_only_option="display_read_only" type="choice">
+        <element choice="3" label="State Of Request" max_length="255" name="state_of_request" read_only="true" read_only_option="display_read_only" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approval Rejected" sequence="1" value="approval_rejected"/>
                 <element inactive_on_update="false" label="Pending Approval" sequence="0" value="pending_approval"/>
@@ -39,11 +39,8 @@
         <element label="Building" max_length="40" name="building" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="ip_addr"/>
         <element label="Approver" max_length="32" name="approver" read_only="true" read_only_option="display_read_only" reference="sys_user" type="reference"/>
-        <element choice="1" label="naveen" max_length="255" name="naveen" type="choice">
-            <choice/>
-        </element>
         <element label="Business Justification" max_length="40" name="business_justification" type="string"/>
-        <element choice="3" default="waiting" label="Approval Status" max_length="255" name="approval_status" read_only="true" read_only_option="display_read_only" type="choice">
+        <element choice="3" label="Approval Status" max_length="255" name="approval_status" read_only="true" read_only_option="display_read_only" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
                 <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
