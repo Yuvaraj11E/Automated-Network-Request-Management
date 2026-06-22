@@ -19,7 +19,7 @@
             </choice>
         </element>
         <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
-        <element display="true" label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <element display="true" label="Department" max_length="40" name="department" type="string"/>
         <element label="Requested by" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element choice="3" label="State Of Request" max_length="255" name="state_of_request" read_only="true" read_only_option="display_read_only" type="choice">
             <choice>

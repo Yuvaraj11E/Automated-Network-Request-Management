@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>request_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onChange for request type</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+    if (isLoading) {
+        return;
+    }
+
+    // Hide all fields initially
+
+    var fields = [
+        'access_level',
+        'device_type',
+        'device_name',
+        'start_date',
+        'end_date',
+        'ip_address',
+        'port_number',
+        'website_url',
+        'building',
+        'floor',
+        'desk_number',
+        'issue_description'
+    ];
+
+    for (var i = 0; i < fields.length; i++) {
+        g_form.setDisplay(fields[i], false);
+    }
+
+    // Show fields based on Request Type
+
+    switch (newValue) {
+
+        case 'VPN Access':
+
+            g_form.setDisplay('access_level', true);
+            g_form.setDisplay('device_type', true);
+            g_form.setDisplay('device_name', true);
+            g_form.setDisplay('start_date', true);
+            g_form.setDisplay('end_date', true);
+
+            break;
+
+
+        case 'Firewall Change':
+
+            g_form.setDisplay('ip_address', true);
+            g_form.setDisplay('port_number', true);
+
+            break;
+
+
+        case 'WiFi Access':
+
+            g_form.setDisplay('device_type', true);
+            g_form.setDisplay('device_name', true);
+
+            break;
+
+
+        case 'Internet Access':
+
+            g_form.setDisplay('website_url', true);
+
+            break;
+
+
+        case 'LAN Port Activation':
+
+            g_form.setDisplay('building', true);
+            g_form.setDisplay('floor', true);
+            g_form.setDisplay('desk_number', true);
+            g_form.setDisplay('port_number', true);
+
+            break;
+
+
+        case 'Network Troubleshooting':
+
+            g_form.setDisplay('device_type', true);
+            g_form.setDisplay('device_name', true);
+            g_form.setDisplay('issue_description', true);
+
+            break;
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 16:22:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>27ef49c34769c754e9a5d369316d43ed</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>onChange for request type</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+        <sys_update_name>sys_script_client_27ef49c34769c754e9a5d369316d43ed</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 18:11:42</sys_updated_on>
+        <table>x_1877518_automa_0_request_engineer</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

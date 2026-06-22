@@ -1,3 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="003ea69e47258354e9a5d369316d4364" extends="sc_request" label="Request Engineer" max_length="40" name="x_1877518_automa_0_request_engineer" type="collection"/>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="003ea69e47258354e9a5d369316d4364" extends="sc_request" label="Request Engineer" max_length="40" name="x_1877518_automa_0_request_engineer" type="collection">
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="Email" max_length="40" name="email" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="IP Address" max_length="40" name="ip_address" type="string"/>
+        <element choice="1" label="Access Level" max_length="255" name="access_level" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Read" sequence="0" value="read"/>
+                <element inactive_on_update="false" label="Admin" sequence="2" value="admin"/>
+                <element inactive_on_update="false" label="Write" sequence="1" value="write"/>
+            </choice>
+        </element>
+        <element label="Website URL" max_length="40" name="website_url" type="string"/>
+        <element label="Port Number" max_length="40" name="port_number" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Building" max_length="40" name="building" type="string"/>
+        <element label="Request Type" max_length="32" name="request_type" read_only="true" read_only_option="display_read_only" reference="x_1877518_automa_0_request_type" type="reference"/>
+        <element label="Floor" max_length="40" name="floor" type="string"/>
+        <element choice="1" label="Device Type" max_length="255" name="device_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="laptop"/>
+                <element inactive_on_update="false" label="Server" sequence="3" value="server"/>
+                <element inactive_on_update="false" label="Desktop" sequence="2" value="desktop"/>
+                <element inactive_on_update="false" label="Mobile" sequence="1" value="mobile"/>
+            </choice>
+        </element>
+        <element label="Desk Number" max_length="40" name="desk_number" type="string"/>
+        <element label="Device Name" max_length="40" name="device_name" type="string"/>
+    </element>
 </database>

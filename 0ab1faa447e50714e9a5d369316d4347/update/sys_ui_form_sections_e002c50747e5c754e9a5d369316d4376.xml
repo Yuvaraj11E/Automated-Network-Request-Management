@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="e002c50747e5c754e9a5d369316d4376" sys_domain="global" table="x_1877518_automa_0_request_engineer" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 15:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6c02c50747e5c754e9a5d369316d437b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1877518_automa_0_request_engineer" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">e002c50747e5c754e9a5d369316d4376</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">a43e2212476d4354e9a5d369316d436b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 15:16:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 15:26:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e544d4b47e5c754e9a5d369316d437c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1877518_automa_0_request_engineer" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">e002c50747e5c754e9a5d369316d4376</sys_ui_form>
+            <sys_ui_section caption="Network Engineer Response" display_value="Network Engineer Response" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">ee544d4b47e5c754e9a5d369316d4377</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 15:26:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 15:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6402c50747e5c754e9a5d369316d437d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1877518_automa_0_request_engineer" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">e002c50747e5c754e9a5d369316d4376</sys_ui_form>
+            <sys_ui_section caption="Based on Request Type" display_value="Based on Request Type" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">a802c50747e5c754e9a5d369316d4373</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 15:26:53</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1877518_automa_0_request_engineer</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-22 15:16:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e002c50747e5c754e9a5d369316d4376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1877518_automa_0_request_engineer</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
+            <sys_update_name>sys_ui_form_sections_e002c50747e5c754e9a5d369316d4376</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-22 15:16:39</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
