@@ -276,7 +276,7 @@ Responsibilities:
 
 * Service Catalog
 * Flow Designer
-* Service Portal
+* Service Portal(Record Producers)
 * User Administration
 * Reports
 * Dashboards
@@ -329,14 +329,6 @@ ANRM
 * Increased operational efficiency
 
 ---
-
-## Author
-
-Yuvaraj Ethiraj
-
-Domain: ServiceNow Development
-
-Project: Automated Network Request Management (ANRM)
 
 ## Project Demonstration
 
