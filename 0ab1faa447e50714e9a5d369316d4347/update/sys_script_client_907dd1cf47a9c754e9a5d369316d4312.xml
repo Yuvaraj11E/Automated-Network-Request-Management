@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description/>
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>907dd1cf47a9c754e9a5d369316d4312</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>onLoad Request Type</sys_name>
         <sys_overrides/>
         <sys_package display_value="Automated Network Request Management" source="x_1877518_automa_0">0ab1faa447e50714e9a5d369316d4347</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="Automated Network Request Management">0ab1faa447e50714e9a5d369316d4347</sys_scope>
         <sys_update_name>sys_script_client_907dd1cf47a9c754e9a5d369316d4312</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-22 18:13:35</sys_updated_on>
+        <sys_updated_on>2026-06-23 04:08:35</sys_updated_on>
         <table>x_1877518_automa_0_request_engineer</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

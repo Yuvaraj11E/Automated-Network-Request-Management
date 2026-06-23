@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Network Engineer Response" section_id="ee544d4b47e5c754e9a5d369316d4377" sys_domain="global" table="x_1877518_automa_0_request_engineer" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
+            <element>special_instructions</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-22 15:26:54</sys_created_on>
-            <sys_id>36544d4b47e5c754e9a5d369316d43b0</sys_id>
+            <sys_created_on>2026-06-23 04:54:07</sys_created_on>
+            <sys_id>531db38f47ad0b54e9a5d369316d436b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Network Engineer Response" display_value="Network Engineer Response" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">ee544d4b47e5c754e9a5d369316d4377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-22 15:26:54</sys_updated_on>
+            <sys_updated_on>2026-06-23 04:54:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>special_instructions</element>
+            <element>description</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-22 15:26:54</sys_created_on>
-            <sys_id>b2544d4b47e5c754e9a5d369316d43b1</sys_id>
+            <sys_created_on>2026-06-23 04:54:07</sys_created_on>
+            <sys_id>1b1db38f47ad0b54e9a5d369316d436c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Network Engineer Response" display_value="Network Engineer Response" name="x_1877518_automa_0_request_engineer" sys_domain="global" view="Default view">ee544d4b47e5c754e9a5d369316d4377</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-22 15:26:54</sys_updated_on>
+            <sys_updated_on>2026-06-23 04:54:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
