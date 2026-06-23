@@ -1,321 +1,349 @@
 # Automated Network Request Management (ANRM)
 
-## Project Overview
+## Overview
 
-Automated Network Request Management (ANRM) is a ServiceNow-based workflow automation solution designed to streamline the lifecycle of network-related service requests within an organization.
+Automated Network Request Management (ANRM) is a ServiceNow-based workflow automation project developed to streamline the process of requesting, approving, assigning, and fulfilling network-related service requests within an organization.
 
-The system replaces manual email-based processes with a centralized self-service portal that automates request submission, approvals, task assignment, SLA tracking, notifications, and reporting.
+The system replaces manual email-based processes with a centralized, automated workflow that allows employees to submit network requests, department heads to approve them, and network engineers to execute and track assigned tasks.
 
-The project enables employees to request network services while allowing administrators and IT teams to efficiently manage, monitor, and fulfill those requests.
+The solution improves visibility, accountability, and operational efficiency by integrating Record Producers, Flow Designer, Service Catalog, approvals, task assignment, notifications, reports, and dashboards.
+
+---
+
+## Problem Statement
+
+Organizations often manage network access requests manually through emails, spreadsheets, and phone calls. This process leads to:
+
+* Delays in approval cycles
+* Lack of request tracking
+* Duplicate requests
+* Poor visibility into request status
+* Increased administrative workload
+* Difficulty in monitoring SLA compliance
+
+ANRM addresses these issues by automating the complete request lifecycle.
+
+---
+
+## Objectives
+
+* Automate network service request handling.
+* Implement approval workflows.
+* Route approved requests to network engineers.
+* Track request fulfillment activities.
+* Generate reports and dashboards.
+* Improve transparency and accountability.
 
 ---
 
 ## Features
 
-### User Features
+### Request Submission
 
-* Submit network-related requests through a self-service portal
-* Dynamic request forms based on request type
-* Real-time request status tracking
-* Receive email notifications for request updates
+Employees can submit network service requests using a Record Producer.
 
-### Administrator Features
+Supported request types:
 
-* Review and manage submitted requests
-* Approve or reject requests
-* Automatically assign tasks to network teams
-* Monitor SLA compliance
-* Generate reports and dashboards
+* VPN Access
+* Firewall Change
+* WiFi Access
+* Internet Access
+* LAN Port Activation
+* Network Troubleshooting
 
-### Automation Features
+### Dynamic Form Behaviour
 
-* Automated approval workflows
-* Catalog task generation
-* SLA tracking
-* Email notifications
-* Dashboard analytics
+The form dynamically displays fields based on the selected Request Type.
+
+Examples:
+
+#### VPN Access
+
+Fields displayed:
+
+* Access Level
+* Device Type
+* Device Name
+* Start Date
+* End Date
+
+#### Firewall Change
+
+Fields displayed:
+
+* IP Address
+* Port Number
+
+#### WiFi Access
+
+Fields displayed:
+
+* Device Type
+* Device Name
+
+#### Internet Access
+
+Fields displayed:
+
+* Website URL
+
+#### LAN Port Activation
+
+Fields displayed:
+
+* Building
+* Floor
+* Desk Number
+* Port Number
+
+#### Network Troubleshooting
+
+Fields displayed:
+
+* Device Type
+* Device Name
+* Issue Description
 
 ---
 
-## Supported Request Types
+## Workflow
 
-The application currently supports six network request categories:
+### Step 1: Employee submits request
 
-1. VPN Access Request
-2. Firewall Rule Change Request
-3. Network Drive Access Request
-4. Wi-Fi Access Request
-5. Network Device Configuration Request
-6. IP Address Allocation Request
-
----
-
-## Project Workflow
-
-```text
-User
+User submits a Network Request through Service Portal.
 
 ↓
 
-Service Portal
+### Step 2: Head approval
+
+Request is sent to the department head for approval.
+
+Actions:
+
+* Approve
+* Reject
 
 ↓
 
-Record Producer
+### Step 3: Network engineer assignment
+
+Approved requests are assigned to the Network Team.
 
 ↓
 
-Network Request Table
+### Step 4: Engineer fulfillment
+
+The Network Engineer:
+
+* Views assigned requests
+* Updates work notes
+* Changes request state
+* Marks work as completed
 
 ↓
 
-Flow Designer
+### Step 5: Notifications
 
-↓
+Email notifications are sent during:
 
-Approval Process
-
-↓
-
-Catalog Task Creation
-
-↓
-
-SLA Tracking
-
-↓
-
-Notifications
-
-↓
-
-Reports & Dashboards
-```
+* Approval request
+* Approval success
+* Approval rejection
+* Work completion
 
 ---
 
 ## System Architecture
 
 ```text
-                   +----------------+
-                   | Service Portal |
-                   +--------+-------+
-                            |
-                            |
-                   +--------v--------+
-                   | Record Producer |
-                   +--------+--------+
-                            |
-                            |
-                   +--------v--------+
-                   | Network Request |
-                   | (Custom Table)  |
-                   +--------+--------+
-                            |
-                  -------------------------
-                  |           |           |
-                  |           |           |
-         +--------v--+ +------v-----+ +---v--------+
-         | Approval  | | Catalog    | | Notification|
-         | Workflow  | | Tasks      | | System      |
-         +--------+--+ +------+-----+ +------+------+
-                  |           |              |
-                  |           |              |
-                  +-----------+--------------+
-                              |
-                      +-------v-------+
-                      | SLA Tracking  |
-                      +-------+-------+
-                              |
-                      +-------v-------+
-                      | Reports &     |
-                      | Dashboards    |
-                      +---------------+
+Employee
+   ↓
+Record Producer
+   ↓
+Head Approval
+   ↓
+sc_request
+   ↓
+Network Request (NREQ)
+   ↓
+Network Engineer
+   ↓
+Completion Notification
 ```
 
 ---
 
-## Technology Stack
+## Modules Implemented
 
-| Component       | Technology                 |
-| --------------- | -------------------------- |
-| Platform        | ServiceNow                 |
-| User Interface  | Service Portal             |
-| Workflow Engine | Flow Designer              |
-| Database        | ServiceNow Tables          |
-| Approvals       | ServiceNow Approval Engine |
-| Notifications   | Email Notifications        |
-| SLA Management  | Task SLA                   |
-| Reporting       | Reports & Dashboards       |
+### Employee
+
+* Submit Network Request
+* View Submitted Requests
+
+### Department Head
+
+* Pending Approvals
+* Approval Actions
+
+### Network Engineer
+
+* My Assigned Requests
+* Update Work Notes
+* Update State
+
+### Administrator
+
+* All Network Requests
+* Reports
+* Dashboards
+
+---
+
+## ServiceNow Components Used
+
+### Catalog Management
+
+* Record Producer
+
+### Flow Designer
+
+* Approval Flow
+* Assignment Flow
+* Notification Flow
+
+### Service Catalog
+
+* Request Management
+
+### User Management
+
+* Users
+* Groups
+* Roles
+
+### Automation
+
+* Client Scripts
+* UI Policies
+
+### Reporting
+
+* Reports
+* Dashboards
+
+---
+
+## Roles
+
+### Employee
+
+Responsibilities:
+
+* Submit requests
+* Track requests
+
+### Department Head
+
+Responsibilities:
+
+* Approve or reject requests
+
+### Network Engineer
+
+Responsibilities:
+
+* Fulfill assigned requests
+* Update work notes
+* Complete tasks
+
+### Administrator
+
+Responsibilities:
+
+* Configure workflows
+* Monitor performance
+* Generate reports
+
+---
+
+## Technologies Used
+
+### Platform
+
+* ServiceNow Personal Developer Instance (PDI)
+
+### ServiceNow Modules
+
+* Service Catalog
+* Flow Designer
+* Service Portal
+* User Administration
+* Reports
+* Dashboards
+
+### Scripting
+
+* JavaScript
+* Glide API
 
 ---
 
 ## Project Structure
 
 ```text
-Automated-Network-Request-Management/
-
-├── README.md
-
-├── Documentation/
-│   ├── Project_Report.pdf
-│   ├── Architecture_Diagram.png
-│   ├── Data_Model_Diagram.png
-│   └── Screenshots/
-
-├── ServiceNow/
-│   ├── Record_Producers/
-│   ├── Catalog_Client_Scripts/
-│   ├── UI_Policies/
-│   ├── Flow_Designer/
-│   ├── Notifications/
-│   ├── SLAs/
-│   ├── Reports/
-│   └── Dashboards/
-
-└── Demo/
-    └── Project_Demo.mp4
+ANRM
+│
+├── Record Producer
+├── Approval Flow
+├── Engineer Fulfillment Flow
+├── Client Scripts
+├── UI Policies
+├── Email Notifications
+├── Reports
+├── Dashboards
+└── Documentation
 ```
-
----
-
-## Functional Modules
-
-### Service Portal
-
-Provides a user-friendly interface for employees to submit requests.
-
-### Record Producer
-
-Captures network request information and creates records automatically.
-
-### Approval Workflow
-
-Routes requests to managers or administrators for approval.
-
-### Catalog Tasks
-
-Creates implementation tasks for network teams.
-
-### SLA Management
-
-Tracks request completion time and SLA compliance.
-
-### Notifications
-
-Sends automated email updates.
-
-### Reports & Dashboards
-
-Provides insights into requests, approvals, task performance, and SLA metrics.
-
----
-
-## Data Model
-
-### Main Entities
-
-* User
-* Network Request
-* Approval
-* Catalog Task
-* SLA
-* Notifications
-* Reports
-
-Relationships:
-
-```text
-User
-
-↓
-
-Network Request
-
-↓
-
-Approval
-
-↓
-
-Catalog Task
-
-↓
-
-SLA
-
-↓
-
-Notifications
-
-↓
-
-Reports
-```
-
----
-
-## Testing
-
-The following functionalities were tested successfully:
-
-* Request submission
-* Approval and rejection flow
-* Task generation
-* SLA tracking
-* Notification delivery
-* Dashboard updates
-
----
-
-## Advantages
-
-* Reduces manual work
-* Faster approval process
-* Centralized request management
-* Improved visibility
-* Better SLA compliance
-* Automated notifications
-* Enhanced reporting
 
 ---
 
 ## Future Enhancements
 
-* AI-based request prioritization
-* Predictive SLA analysis
+* SLA monitoring
+* Automatic escalation
+* Mobile support
+* Knowledge base integration
+* Performance analytics
+* Multi-level approvals
 * Virtual Agent integration
-* Mobile application support
-* Multi-level dynamic approvals
-* Advanced analytics
 
 ---
 
-## Screenshots
+## Benefits
 
-Add screenshots for:
-
-* Service Portal
-* Record Producer
-* Approval Screen
-* Flow Designer
-* Catalog Tasks
-* SLA Tracking
-* Notifications
-* Reports
-* Dashboards
+* Reduced manual effort
+* Faster approvals
+* Improved accountability
+* Better tracking
+* Centralized management
+* Enhanced visibility
+* Increased operational efficiency
 
 ---
+
+## Author
+
+Yuvaraj Ethiraj
+
+Domain: ServiceNow Development
+
+Project: Automated Network Request Management (ANRM)
 
 ## Project Demonstration
 
-Add your project demo video link here.
-
-Example:
+Drive Link:
 
 `https://drive.google.com/your-demo-link`
 
----
 
 ## GitHub Repository
 
